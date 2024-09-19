@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deal with offers</title>
+    <style>
+    body {
+     font-family: 'Arial, sans-serif';
+     line-height: 1.6;
+     color: #d5bdaf; 
+     }
+        /* Back Home Button Styling */
+        .back-home-btn {
+          margin-right:90%;
+  padding: 10px 20px;
+  background-color:#344e41;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+ 
+        .back-home-btn:hover {
+            background-color: #d5bdaf;
+        }
+
+.explore-offer {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f5ebe0;
+}
+
+.explore-offer h2 {
+  font-size: 2rem;
+  color: #344e41;
+  margin-bottom: 1rem;
+}
+
+.shop-arrivals {
+  font-size: 1rem;
+  color: #3a5a40;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #e3d5ca;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.1);
+}
+
+.sale-label {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #588157;
+  color: #f5ebe0;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.product-card h3 {
+  font-size: 1.125rem;
+  color: #344e41;
+  margin-top: 0.75rem;
+}
+
+.product-description {
+  font-size: 0.875rem;
+  color: #588157;
+  margin: 0.5rem 0;
+}
+
+.product-price {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #3a5a40;
+  margin-top: 1rem;
+}
+
+.add-to-cart {
+  background-color: #344e41;
+  color: #f5ebe0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart:hover {
+  background-color: #588157;
+  transform: translateY(-2px);
+}
+/* Footer Styling */
+.footer {
+            background-color: #e3d5ca;
+            padding: 40px 20px;
+            text-align: center;
+            color: #3a5a40;
+        }
+
+        .footer h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #432818;
+        }
+
+        .footer p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #588157;
+        }
+
+        .social-icons {
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #432818;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #99582a;
+        }
+
+        .footer hr {
+            border-top: 1px solid #d5bdaf;
+            margin: 20px auto;
+            width: 80%;
+        }
+
+        .footer .brand {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #344e41;
+        }
+
+        .footer .footer-links {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
+        .footer .footer-links a {
+            color: #99582a;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+
+        .footer .footer-links a:hover {
+            color: #432818;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <!-- You can add other elements in the header if necessary -->
+
+
+    <section class="explore-offer">
+      <a href="ecom.html" class="back-home-btn">Back Home</a>
+
+        <h2>Explore Glamorous Offers</h2>
+        <a href="#" class="shop-arrivals">Sale is live now!!!</a>
+       
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="primingserum.jpeg" alt="Product 1">
+              <span class="sale-label">SALE</span>
+            </div>
+            <h3>The PrimerSerum</h3>
+            <p class="product-description">FACIAL PRIMER + LIGHTWEIGHT </p>
+            <p class="product-price">INR 399</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      
+          <div class="product-card">
+            <div class="product-image">
+               <img src="powderbrush.jpg" alt="Product 2">
+              <span class="sale-label">SALE</span>
+            </div>
+            <h3>Blender Brush</h3>
+            <p class="product-description">POWDER BRUSH + SMOOTH</p>
+            <p class="product-price">INR 199</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      
+          <div class="product-card">
+            <div class="product-image">
+              <img src="lipmask.jpeg" alt="Product 3">
+              <span class="sale-label">SALE</span>
+            </div>
+            <h3>Lip Care</h3>
+            <p class="product-description">LIP ESSENCE + NOURISHMENT + HEAL FROM CRACKY</p>
+            <p class="product-price">INR 299</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      
+          <div class="product-card">
+            <div class="product-image">
+              <img src="eyes.jpg" alt="Product 4">
+              <span class="sale-label">SALE</span>
+            </div>
+            <h3>The Bright-Eyed Set</h3>
+            <p class="product-description">DEPUFF + CONCEAL + LENGTHEN LASHES</p>
+            <p class="product-price">INR 250</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+
+          <div class="product-card">
+            <div class="product-image">
+              <img src="highlighter.jpg" alt="Product 5">
+              <span class="sale-label">SALE</span>
+            </div>
+            <h3>CREAMY HIGHLIGHTER</h3>
+            <p class="product-description">SUNSHIFT CREAM + HIGHLIGHTER</p>
+            <p class="product-price">INR 550</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+
+          
+        </div>
+        </section>
+        <footer class="footer">
+          <h3>Connect with GlowGlam</h3>
+          <p>
+              Stay updated with our latest launches and exclusive offers by following us on social media. GlowGlam is more than just a brand—it's a community of beauty lovers, just like you.
+          </p>
+      
+          <!-- Social Media Icons -->
+          <div class="social-icons">
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+      
+          <hr>
+      
+          <p class="brand">© 2024 GlowGlam. All rights reserved.</p>
+          
+          <!-- Optional Footer Links -->
+          <div class="footer-links">
+              <a href="#">Privacy Policy</a> | 
+              <a href="#">Terms of Service</a> | 
+              <a href="#">Contact Us</a>
+          </div>
+      </footer>
+</body>
+</html>
