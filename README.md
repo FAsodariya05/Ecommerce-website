@@ -11,13 +11,13 @@ This visually appealing website showcases my design skills and creativity as a w
 - Home: Landing page with beautiful quote to attract the user.
 - Latest-launch section: Details about newly launched product.
 - Offer section: Describe the offer.  
-- Ecxlusive section: Primium products for beauties.
+- Exclusive section: Primium products for beauties.
 - Combo launch: Details about newly launched combo products.
 
 ## Technologies Used
 
 - HTML: Markup language used for structuring the website.
 - CSS: Stylesheet language used for designing and formatting the website.
-- JavaScript: Programming language used for adding interactivity and dynamic features.
+- JavaScript: Programming language used for adding interactivity, smooth scrolling and dynamic features.
 
 Thank you for visiting! I hope you find it informative and visually appealing.
