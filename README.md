@@ -20,4 +20,4 @@ This visually appealing website showcases my design skills and creativity as a w
 - CSS: Stylesheet language used for designing and formatting the website.
 - JavaScript: Programming language used for adding interactivity and dynamic features.
 
-Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
+Thank you for visiting! I hope you find it informative and visually appealing.
